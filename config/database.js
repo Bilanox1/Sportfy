@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const URL = process.env.URL;
-const docker = "mongodb://root:example@mongo:27017/AlloMedia?authSource=admin";
+const docker = "mongodb://root:example@mongo:27017/Sportfy?authSource=admin";
 
 const dbConection = () =>
   mongoose
