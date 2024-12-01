@@ -14,7 +14,7 @@ dbConection();
 dotenv.config();
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://bilal-ez-zaim.github.io/",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
@@ -61,6 +61,6 @@ module.exports = app;
 
 // redux , redux-toolkit
 
-// store = 
+// store =
 
-// slice 
+// slice
