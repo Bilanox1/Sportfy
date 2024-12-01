@@ -14,7 +14,7 @@ dbConection();
 dotenv.config();
 
 const corsOptions = {
-  origin: "https://bilal-ez-zaim.github.io/",
+  origin: "https://bilal-ez-zaim.github.io",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
